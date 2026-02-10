@@ -1,0 +1,73 @@
+// parent Class
+class Animal {
+	private String name;
+	private int age;
+	
+	//Setters
+	public void setName (String name) {this.name = name;}
+	public void setAge (int age ) {this.age = age; }
+	
+	//Getters
+	public String getName() { return name; }
+	public int getAge() { return age; }
+	
+	//Method to be overridden
+	void sound() {
+		System.out.println("Some generic animal sound");
+	}
+	//overloaded method(Couple-time polymorphisa)
+	void sound (int times) {
+		for (int i = 0; i < times; i++) {
+			sound();
+		}
+	}
+}
+//child classes
+class Dog extends Animal {
+	@Override
+	void sound() { System.out.println("Bark bark!"); }
+}
+
+class Cat extends Animal {
+	@Override
+	void sound() { System.out.println("Meow meow!"); }
+}
+
+class Cow extends Animal {
+	@Override
+	void sound() {System.out.println("Moo moo!"); }
+}
+
+//Main class
+public class MainProgram {
+	public static void main(String[] args) {
+		
+		Dog dog = new Dog();
+		dog.setName("Buddy");
+		dog.setAge(3);
+		
+		Cat cat = new Cat();
+		cat.setName("Kitty");
+		cat.setAge(2);
+		
+		Cow cow = new Cow();
+		cow.setName("Bessie");
+		cow.setAge(5);
+		
+		System.out.println(dog.getName() + "says:");
+		dog.sound();
+		dog.sound(3);
+		
+		System.out.println(cat.getName() + "says:");
+		cat.sound();
+		cat.sound(2);
+		
+   	System.out.println(cow.getName() + "says:");
+   	cow.sound();
+   	cow.sound(4);
+   	
+	}
+}
+
+	
+		
