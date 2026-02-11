@@ -19,5 +19,6 @@
 
         // Test 3-argument method
         p.processPayment(1200.0, "USD", "Credit Card");
+        System.out.println("Seatowork 4 part 1");
 	}
 }

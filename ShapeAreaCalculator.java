@@ -18,5 +18,6 @@ public class ShapeAreaCalculator{
 
         System.out.println("Area of Square: " + square);
         System.out.println("Area of Rectangle: " + rectangle);
+        System.out.println("Seatwork 4 part 2");
     }
 }
