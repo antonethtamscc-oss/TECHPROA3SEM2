@@ -39,7 +39,7 @@ class Cow extends Animal {
 }
 
 //Main class
-public class MainProgram {
+public class Seatwork3 {
 	public static void main(String[] args) {
 		
 		Dog dog = new Dog();

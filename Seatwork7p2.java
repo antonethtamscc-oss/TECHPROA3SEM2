@@ -4,7 +4,7 @@ class PasswordException extends Exception {
     }
 }
 
-public class Seatwork7partB {
+public class Seatwork7p2 {
 
     static void checkPassword(String password) throws PasswordException {
         if (!password.equals("Neckhurt")) {

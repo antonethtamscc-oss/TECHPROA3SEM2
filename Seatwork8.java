@@ -16,7 +16,7 @@ class Student {
         System.out.println("Garbage Collector destroying Student object: " + name);
     }
 }
-public class GarbageCollectorDemo {
+public class Seatwork8 {
     public static void main(String[] args) {
         System.out.println("=== Student Record System Started ===");
 
@@ -36,8 +36,8 @@ public class GarbageCollectorDemo {
         System.gc();
         System.out.println("\n--- Creating Temporary Student Objects ---");
         for (int i = 4; i <= 20; i++) {
-            Student temp = new Student(i, "TempStudent" + i);
-        }
+    new Student(i, "TempStudent" + i);
+}
         System.out.println("\n--- Clearing Remaining References ---");
         System.gc();
         try {

@@ -1,4 +1,4 @@
-public class ShapeAreaCalculator {
+public class ShapeAreaCalculator{
 
     // Method for square
     public int calculateArea(int side) {
@@ -19,3 +19,4 @@ public class ShapeAreaCalculator {
         System.out.println("Area of Square: " + square);
         System.out.println("Area of Rectangle: " + rectangle);
     }
+}
