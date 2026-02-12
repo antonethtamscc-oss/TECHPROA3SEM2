@@ -61,8 +61,8 @@ public class Seatwork2p2 {
         Student s = new Student();
 
         // Using setters from Person (inherited)
-        s.setName("Pelaming");
-        s.setAge(17);
+        s.setName("Tam");
+        s.setAge(16 );
 
         // Using setter from Student
         s.setStrand("ICT");
