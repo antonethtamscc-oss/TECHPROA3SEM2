@@ -6,8 +6,8 @@ class Person {
     private String name;
     private int age;
 
-    // Setters (Write data)
-    public void setName(String name) {
+    // Setterst 
+    //     public void setName(String name) {
         this.name = name;
     }
 
